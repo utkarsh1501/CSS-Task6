@@ -1,0 +1,81 @@
+.box{
+    height: 600px;
+    width: 600px;
+    
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+img{
+       height: 200px;
+       align-items: center;
+       
+}
+.block{
+    margin-top: 0%;
+    border: 1px solid rgb(108, 104, 104);
+    height: 30px;
+    font-size: 2ch;
+    color: grey;
+    /* padding-top: 1ch; */
+    padding-left: 1ch;
+}
+.text1 p{
+    margin-bottom: 0%;
+    font-weight: bold;
+}
+
+.login{
+    margin-top: 15px;
+    height: 30px;
+    background-color: rgb(41, 180, 41);
+    text-align: center;
+    color: aliceblue;
+    padding-top: 1ch;
+}
+
+.rember{
+    padding-top: 1ch;
+    height: 30px;
+}
+.cancel{
+    padding-top: 8px ;
+    margin-top: 15px;
+    height: 40px;
+    background-color: rgba(207, 207, 207, 0.612);
+    display: grid;
+    
+
+}
+.butt{
+    grid-column: 1;
+    
+
+}
+button{
+    
+    height: 30px;
+    transition-duration: 0.4s;
+    background-color: rgba(236, 30, 30, 0.922);
+    border: 0;
+    color: aliceblue;
+    
+    
+}
+.button{
+    
+    border-radius: 5px;
+
+}
+
+button:hover {
+
+    background-color: red; /* Green */
+    color: black;
+}
+.txt{
+    grid-column: 2;
+    text-align: right;
+}
